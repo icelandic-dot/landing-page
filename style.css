@@ -207,4 +207,18 @@ button:hover {
     margin-left: 30px;
 }
 
+/* FOOTER */
 
+.footer {
+    background-color: #1f2937;
+    
+    padding: 5px;
+}
+
+.footer p, a {
+    color: #e5e7eb;
+}
+
+.footer a:hover {
+    font-weight: bold;
+}
