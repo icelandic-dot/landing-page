@@ -1,0 +1,109 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; /*MAYBE NOT NEEDED*/
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.wrapper {
+    background-color: #1f2937;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    
+    flex-direction: column;
+    
+    padding: 1rem 14rem 7re;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    }
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex: 1 1 0;
+    
+}
+
+.main-title {
+    
+    text-align: left;
+    width: 400px;
+
+    padding-left: 60px; /*needs fixing*/
+}
+
+.main-image {
+    display: flex;
+    
+    
+
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+button /*call to action button */{
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    padding: 10px;
+    width: 100px;
+
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+
+    border-radius: 10px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    
+    gap: 16px;
+}
+
+a, p {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #1655b9;
+}
