@@ -130,7 +130,7 @@ button:hover {
 }
 
 .cat-container img {
-    max-width: 200px;
+    max-height: 300px;
 }
 
 .cat-text {
@@ -138,4 +138,37 @@ button:hover {
     
     margin-top: 20px;
 }
+
+/* THIRD BOX */
+
+.third {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: #e5e7eb;
+
+    margin-top: 60px;
+    padding: 4em 16em;
+    height: 250px;
+}
+.third h4 {
+    align-self: flex-end;
+
+    color: #1f2937;
+    font-size: 24px;
+    
+}
+
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+
+    margin-bottom: 0;
+}
+
+
 
