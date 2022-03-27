@@ -139,6 +139,8 @@ button:hover {
     width: 200px;
     
     margin-top: 20px;
+
+    line-height: 1.5em;
 }
 
 /* THIRD BOX */
@@ -170,6 +172,8 @@ button:hover {
     text-align: center;
 
     margin-bottom: 0;
+
+    line-height: 1.5em;
 }
 
 /* FOURTH BOX */
